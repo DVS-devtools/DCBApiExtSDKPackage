@@ -14,7 +14,7 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(url: "https://github.com/DVS-devtools/DCBApiExtSDK.git", branch: "feature/fixDcbUserNil"),
+        .package(url: "https://github.com/DVS-devtools/DCBApiExtSDK.git", from: "5.0.8"),
         .package(url: "https://github.com/DVS-devtools/NewtonSDK.git", branch: "feature/urDebug"),
     ],
     targets: [
